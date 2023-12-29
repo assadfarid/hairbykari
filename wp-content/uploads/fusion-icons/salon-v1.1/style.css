@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'salon';
+  src:
+    url('fonts/salon.ttf?6au0z4') format('truetype'),
+    url('fonts/salon.woff?6au0z4') format('woff'),
+    url('fonts/salon.svg?6au0z4#salon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="salon-"], [class*=" salon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'salon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.salon-close:before {
+  content: "\e900";
+}
+.salon-menu:before {
+  content: "\e901";
+}
+.salon-angle-down:before {
+  content: "\f107";
+}

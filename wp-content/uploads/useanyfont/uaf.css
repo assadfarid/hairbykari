@@ -1,0 +1,10 @@
+				@font-face {
+					font-family: 'hello-paris-serif';
+					src: url('/wp-content/uploads/useanyfont/8827Hello-Paris-Serif.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/8827Hello-Paris-Serif.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.hello-paris-serif{font-family: 'hello-paris-serif' !important;}
+
+		

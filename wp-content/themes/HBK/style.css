@@ -1,0 +1,17 @@
+/*
+Theme Name: Hair By Kari
+Description: The Hair By Kari Theme is the ultimate design and creation suite. Design Anything, Build Everything, Fast. The #1 selling product of all time on ThemeForest.
+Author: Innvo Tech
+Author URI: https://innvotech.net/
+Version: 7.4.2
+Requires PHP: 5.6
+License: Themeforest Split Licence
+License URI: -
+Text Domain: Avada
+*/
+
+/* Classes needed by Theme Check */
+.wp-caption-text,
+.gallery-caption,
+.bypostauthor {
+}
